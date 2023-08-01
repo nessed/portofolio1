@@ -1,4 +1,3 @@
-"use client";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import Image from 'next/image';
@@ -38,7 +37,7 @@ export default function Home() {
         <section>
           <div className='dark:text-white '>
             <h3 className='text-3xl py-6 pt-10 font-bold'>Services I offer</h3>
-            <p className='text-2xl'> While I haven't yet had the opportunity to work on specific gigs,
+            <p className='text-2xl'> While I haven&apos;t yet had the opportunity to work on specific gigs,
               my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
@@ -87,7 +86,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white font-bold'>Portfolio</h3>
-            <p className='text-xl md:text-xl dark:text-white'> While I haven't yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
+            <p className='text-xl md:text-xl dark:text-white'> While I haven&apos;t yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
               provide you with <span className="text-indigo-500">exceptional service</span> for your frontend needs.
@@ -95,19 +94,19 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src="/web1.png" alt='web1' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
+              <img src="/web1.png" alt='web1' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src="/web2.png" alt='web2' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
+              <img src="/web2.png" alt='web2' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src="/web3.png" alt='web3' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
+              <img src="/web3.png" alt='web3' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src="/web4.png" alt='web4' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
+              <img src="/web4.png" alt='web4' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src="/web5.png" alt='web5' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
+              <img src="/web5.png" alt='web5' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
           </div>
         </section>
