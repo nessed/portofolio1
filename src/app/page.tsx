@@ -83,10 +83,12 @@ export default function Home() {
             <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
           </div>
         </section>
+
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white font-bold'>Portfolio</h3>
-            <p className='text-xl md:text-xl dark:text-white'> While I haven&apos;t yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
+            <p className='text-xl md:text-xl dark:text-white'>
+              While I haven&apos;t yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
               provide you with <span className="text-indigo-500">exceptional service</span> for your frontend needs.
@@ -94,19 +96,19 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <img src="/web1.png" alt='web1' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <Image src="/web1.png" alt='web1' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web2.png" alt='web2' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <Image src="/web2.png" alt='web2' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web3.png" alt='web3' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <Image src="/web3.png" alt='web3' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web4.png" alt='web4' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <Image src="/web4.png" alt='web4' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web5.png" alt='web5' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <Image src="/web5.png" alt='web5' className='rounded-lg object-cover' width={100} height={100} layout="responsive" />
             </div>
           </div>
         </section>
