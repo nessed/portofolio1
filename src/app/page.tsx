@@ -30,21 +30,20 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-indigo-500 to-blue-500 via-purple-500 
-          rounded-full w-80 h-80 mt-20 overflow-hidden'>
-            <Image src="/aliiii.png" alt="Dev Ed Wave" layout="fill" objectFit='cover' className='' />
+          <div className='relative mx-auto bg-gradient-to-b from-indigo-500 to-blue-500 via-purple-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image src="/aliiii.png" alt="Ali" layout="fill" objectFit='cover' />
           </div>
         </section>
         <section>
-          <div className='dark:text-white '>
+          <div className='dark:text-white'>
             <h3 className='text-3xl py-6 pt-10 font-bold'>Services I offer</h3>
-            <p className='text-2xl'> While I haven't yet had the opportunity to work on specific gigs,
+            <p className='text-2xl'>While I haven't yet had the opportunity to work on specific gigs,
               my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
               provide you with <span className="text-indigo-500">exceptional service</span> for your frontend needs.</p>
             <p className='text-2xl py-2 leading-8'>I offer a wide array of services, including
-              <span className="text-indigo-500"> music production </span>
+              <span className="text-indigo-500">music production</span>
               as well as <span className="text-indigo-500">O levels tutoring</span>.
             </p>
           </div>
@@ -63,31 +62,31 @@ export default function Home() {
           </div>
           <div className='shadow-lg p-10 rounded-xl my-10 text-center dark:bg-slate-800 dark:text-white'>
             <div className='flex justify-center'>
-              <Image className="" src="/code.png" alt="design" width={100} height={100} />
+              <Image className="" src="/code.png" alt="code" width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-            <p className='py-2'>Creating elegant designs suited to your preferences</p>
-            <h4 className='py-4 text-indigo-500'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-white'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Illustrator</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
+            <h3 className='text-lg font-medium pt-8 pb-2'>Code Development</h3>
+            <p className='py-2'>Creating elegant code suited to your needs</p>
+            <h4 className='py-4 text-indigo-500'>Tools I use</h4>
+            <p className='text-gray-800 py-1 dark:text-white'>React</p>
+            <p className='text-gray-800 py-1 dark:text-white'>Next.js</p>
+            <p className='text-gray-800 py-1 dark:text-white'>Tailwind CSS</p>
           </div>
           <div className='shadow-lg p-10 rounded-xl my-10 text-center dark:bg-slate-800 dark:text-white'>
             <div className='flex justify-center'>
-              <Image className="" src="/consulting.png" alt="design" width={100} height={100} />
+              <Image className="" src="/consulting.png" alt="consulting" width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-            <p className='py-2'>Creating elegant designs suited to your preferences</p>
-            <h4 className='py-4 text-indigo-500'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-white'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Illustrator</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
+            <h3 className='text-lg font-medium pt-8 pb-2'>Consulting</h3>
+            <p className='py-2'>Providing expert advice and guidance</p>
+            <h4 className='py-4 text-indigo-500'>Consulting Areas</h4>
+            <p className='text-gray-800 py-1 dark:text-white'>Frontend Architecture</p>
+            <p className='text-gray-800 py-1 dark:text-white'>UI/UX Design</p>
+            <p className='text-gray-800 py-1 dark:text-white'>Performance Optimization</p>
           </div>
         </section>
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white font-bold'>Portfolio</h3>
-            <p className='text-xl md:text-xl dark:text-white'> While I haven't yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
+            <p className='text-xl md:text-xl dark:text-white'>While I haven't yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
               provide you with <span className="text-indigo-500">exceptional service</span> for your frontend needs.
@@ -95,19 +94,19 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <img src="/web1.png" alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <img src="/web1.png" alt='web1' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web2.png" alt='web' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <img src="/web2.png" alt='web2' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web3.png" alt='web' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <img src="/web3.png" alt='web3' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web4.png" alt='web' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <img src="/web4.png" alt='web4' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
             <div className='basis-1/3 flex-1'>
-              <img src="/web5.png" alt='web' alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <img src="/web5.png" alt='web5' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
             </div>
           </div>
         </section>
