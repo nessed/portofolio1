@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <div>
       <title>Portfolio</title>
-      <main className='bg-white dark:bg-gradient-to-b dark:from-slate-900 dark:to-indigo-500 px-10 md:px-20 lg:px-40'>
+      <main className='bg-gradient-to-b from-slate-900 to-indigo-500 px-10 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='dark:text-white text-xl font-burtons text-indigo-500'>developedbyali</h1>
+            <h1 className='text-white text-xl font-burtons text-indigo-500'>developedbyali</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className="cursor-pointer text-2xl" /></li>
               <li>
@@ -19,8 +19,8 @@ export default function Home() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-indigo-600 font-medium md:text-6xl'>Ali</h2>
-            <h3 className='dark:text-white text-2xl py-2 md:text-3xl'>Developer and designer</h3>
-            <p className='dark:text-white text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
+            <h3 className='text-white text-2xl py-2 md:text-3xl'>Developer and designer</h3>
+            <p className='text-white text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
               Offering services for your frontend related needs.
             </p>
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className='dark:text-white '>
+          <div className='text-white '>
             <h3 className='text-3xl py-6 pt-10 font-bold'>Services I offer</h3>
             <p className='text-2xl'> While I haven&apos;t yet had the opportunity to work on specific gigs,
               my portfolio showcases a collection of
@@ -47,7 +47,7 @@ export default function Home() {
               as well as <span className="text-indigo-500">O levels tutoring</span>.
             </p>
           </div>
-          <div className='shadow-lg p-10 rounded-xl my-10 text-center dark:bg-slate-800 dark:text-white'>
+          <div className='shadow-lg p-10 rounded-xl my-10 text-center bg-slate-800 text-white'>
             <div className='flex justify-center'>
               <Image className="" src="/design.png" alt="design" width={100} height={100} />
             </div>
@@ -55,39 +55,39 @@ export default function Home() {
               <h3 className='text-lg font-medium pt-8 pb-2 font-bold'>Beautiful Designs</h3>
               <p className='py-2'>Creating elegant designs suited to your preferences</p>
               <h4 className='py-4 text-indigo-500'>Design tools I use</h4>
-              <p className='text-gray-800 py-1 dark:text-white'>Photoshop</p>
-              <p className='text-gray-800 py-1 dark:text-white'>Illustrator</p>
-              <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
+              <p className='text-gray-800 py-1 text-white'>Photoshop</p>
+              <p className='text-gray-800 py-1 text-white'>Illustrator</p>
+              <p className='text-gray-800 py-1 text-white'>Figma</p>
             </div>
           </div>
-          <div className='shadow-lg p-10 rounded-xl my-10 text-center dark:bg-slate-800 dark:text-white'>
+          <div className='shadow-lg p-10 rounded-xl my-10 text-center bg-slate-800 text-white'>
             <div className='flex justify-center'>
               <Image className="" src="/code.png" alt="design" width={100} height={100} />
             </div>
             <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
             <p className='py-2'>Creating elegant designs suited to your preferences</p>
             <h4 className='py-4 text-indigo-500'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-white'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Illustrator</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
+            <p className='text-gray-800 py-1 text-white'>Photoshop</p>
+            <p className='text-gray-800 py-1 text-white'>Illustrator</p>
+            <p className='text-gray-800 py-1 text-white'>Figma</p>
           </div>
-          <div className='shadow-lg p-10 rounded-xl my-10 text-center dark:bg-slate-800 dark:text-white'>
+          <div className='shadow-lg p-10 rounded-xl my-10 text-center bg-slate-800 text-white'>
             <div className='flex justify-center'>
               <Image className="" src="/consulting.png" alt="design" width={100} height={100} />
             </div>
             <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
             <p className='py-2'>Creating elegant designs suited to your preferences</p>
             <h4 className='py-4 text-indigo-500'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-white'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Illustrator</p>
-            <p className='text-gray-800 py-1 dark:text-white'>Figma</p>
+            <p className='text-gray-800 py-1 text-white'>Photoshop</p>
+            <p className='text-gray-800 py-1 text-white'>Illustrator</p>
+            <p className='text-gray-800 py-1 text-white'>Figma</p>
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white font-bold'>Portfolio</h3>
-            <p className='text-xl md:text-xl dark:text-white'>
+            <h3 className='text-3xl py-1 text-white font-bold'>Portfolio</h3>
+            <p className='text-xl md:text-xl text-white'>
               While I haven&apos;t yet had the opportunity to work on specific gigs, my portfolio showcases a collection of
               projects that highlight my skills and expertise in <span className="text-indigo-500">front-end development</span>.
               These projects exemplify my dedication to delivering high-quality work, and I am confident that I can
