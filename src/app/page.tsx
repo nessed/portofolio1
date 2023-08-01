@@ -30,7 +30,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-indigo-500 to-blue-500 via-purple-500 
-          rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          rounded-full w-80 h-80 mt-20 overflow-hidden opacity-100'>
             <Image src="/aliiii.png" alt="Dev Ed Wave" layout="fill" objectFit='cover' className='' />
           </div>
         </section>
@@ -47,6 +47,8 @@ export default function Home() {
               as well as <span className="text-indigo-500">O levels tutoring</span>.
             </p>
           </div>
+          
+          <div>
           <div className='shadow-lg p-10 rounded-xl my-10 text-center bg-slate-800 text-white'>
             <div className='flex justify-center'>
               <Image className="" src="/design.png" alt="design" width={100} height={100} />
@@ -81,6 +83,7 @@ export default function Home() {
             <p className='text-gray-800 py-1 text-white'>Photoshop</p>
             <p className='text-gray-800 py-1 text-white'>Illustrator</p>
             <p className='text-gray-800 py-1 text-white'>Figma</p>
+          </div>
           </div>
         </section>
 
