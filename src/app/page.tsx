@@ -112,6 +112,22 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Add the "circles" section here */}
+        <section>
+          <div className='circles'>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </section>
       </main>
     </div>
   );
