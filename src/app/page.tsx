@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <title>Portfolio</title>
-      <main className='bg-white dark:bg-slate-900 px-10 md:px-20 lg:px-40'>
+      <main className='bg-white dark:bg-gradient-to-b dark:from-slate-900 dark:to-indigo-500 px-10 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='dark:text-white text-xl font-burtons text-indigo-500'>developedbyali</h1>
