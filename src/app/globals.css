@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .title {
   position: fixed;
   left: 50%;
@@ -31,22 +30,15 @@
 
 @keyframes animate {
   0% {
-    opacity: 0; /* Start with opacity at 0 */
-    border-radius: 50%;
+    opacity: 0;
     transform: translateY(0px) rotate(0deg);
   }
 
-  50% {
-    opacity: 0.6; /* Fade in the circles to 60% opacity at 50% of the animation */
-  }
-
   100% {
-    opacity: 0; /* Fade out the circles back to 0 opacity at the end of the animation */
-    border-radius: 50%;
+    opacity: 1;
     transform: translateY(-1000px) rotate(720deg);
   }
 }
-
 
 .circles div {
   position: absolute;
@@ -55,9 +47,11 @@
   width: 20px;
   height: 20px;
   background-color: rgba(255, 255, 255, 0.2);
-  bottom: 0; /* Change this from -150px to 0 */
+  bottom: -150px;
+  border-radius: 50%; /* Add border-radius property here */
   animation: animate 25s linear infinite;
 }
+
 .circles div:nth-child(1) {
   left: 25%;
   width: 80px;
@@ -134,4 +128,3 @@
   font-family: "burtons";
   src: url("/Burtons.otf");
 }
-
