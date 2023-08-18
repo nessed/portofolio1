@@ -3,6 +3,8 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/
 import Image from 'next/image';
 
 export default function Home() {
+
+  
   return (
     <div>
       <title>Portfolio</title>
@@ -14,7 +16,7 @@ export default function Home() {
               <li><BsFillMoonStarsFill className="cursor-pointer text-2xl" /></li>
               <li>
                 <a className="bg-gradient-to-r from-indigo-500 to-blue-500 via-purple-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
-              </li>
+              </li> 
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -75,7 +77,7 @@ export default function Home() {
           </div>
           <div className='shadow-lg p-10 rounded-xl my-10 text-center bg-slate-800 text-white'>
             <div className='flex justify-center'>
-              <Image className="" src="/consulting.png" alt="design" width={100} height={100} />
+              <Image className="text" src="/consulting.png" alt="design" width={100} height={100}/>
             </div>
             <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
             <p className='py-2'>Creating elegant designs suited to your preferences</p>
@@ -134,4 +136,5 @@ export default function Home() {
       </main>
     </div>
   );
-}
+};
+

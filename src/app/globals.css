@@ -46,7 +46,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(172, 18, 255, 0.2);
   bottom: -150px;
   border-radius: 50%; /* Add border-radius property here */
   animation: animate 25s linear infinite;
